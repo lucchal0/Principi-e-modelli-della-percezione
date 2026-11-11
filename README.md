@@ -37,3 +37,6 @@ Il notebook è organizzato per documentare:
 - selezione delle feature e valutazione della normalizzazione;
 - applicazione e valutazione dell'algoritmo scelto;
 - interpretazione dei risultati e conclusioni.
+
+## Apri il progetto su Google Colab
+[![Apri in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lucchal0/Principi-e-modelli-della-percezione/blob/main/notebooks/sound_of_data.ipynb)
