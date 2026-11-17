@@ -3,26 +3,17 @@
 Legenda: [ ] da fare · [x] completato
 
 ## Fase 1 – Definizione del progetto
-- [ ] Rileggere le indicazioni della docente.
-- [ ] Verificare nelle slide quale algoritmo è presentato come modello della percezione umana.
-- [ ] Confermare l'algoritmo centrale con il gruppo (e chiedere chiarimenti alla docente se necessario).
-- [ ] Definire 2–3 domande di ricerca precise.
-- [ ] Definire il ruolo di `track_genre`: label per il confronto, non feature di input se si esegue clustering da confrontare poi con i generi.
+- [X] Rileggere le indicazioni della docente.
+- [X] Verificare nelle slide quale algoritmo è presentato come modello della percezione umana.
+- [X] Definire un obbiettivo preciso.
 
 ## Fase 2 – Dataset
-- [ ] Scaricare il CSV dalla fonte indicata in `data/README.md`.
-- [ ] Verificare licenza e condizioni d'uso del dataset.
-- [ ] Rilevare numero effettivo di righe e colonne.
-- [ ] Documentare tipi delle variabili e significato delle colonne usate.
-- [ ] Controllare valori mancanti e duplicati.
-- [ ] Controllare distribuzione delle tracce per genere.
+- [X] Scaricare il CSV dalla fonte indicata in `data/README.md`.
+- [X] Rilevare numero effettivo di righe e colonne.
+- [X] Documentare tipi delle variabili e significato delle colonne usate.
 
 ## Fase 3 – Analisi esplorativa
-- [ ] Analizzare distribuzioni delle feature audio.
-- [ ] Visualizzare feature selezionate rispetto a `track_genre`.
-- [ ] Analizzare relazioni/correlazioni tra feature numeriche.
-- [ ] Individuare e discutere eventuali outlier.
-- [ ] Selezionare i grafici che rispondono alle domande di ricerca.
+- [X] Selezionare i grafici che rispondono alle domande di ricerca.
 
 ## Fase 4 – Preparazione dei dati
 - [ ] Decidere quali feature includere ed escludere, motivando la scelta.
