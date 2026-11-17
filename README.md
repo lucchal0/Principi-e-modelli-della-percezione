@@ -4,9 +4,15 @@ Progetto di gruppo per l'esame di **Principi e modelli della percezione**.
 
 ## Obiettivo
 
-Analizzare un dataset di tracce musicali Spotify attraverso visualizzazioni e un algoritmo studiato durante il corso, con particolare attenzione al collegamento tra algoritmo e modello della percezione umana richiesto dalla docente.
+A partire da un dataset di brani musicali estratti da Spotify, ciascuno corredato da caratteristiche sonore e musicali e associato a uno specifico genere, il progetto si propone di analizzare il modo in cui i brani possono essere organizzati e raggruppati sulla base delle loro proprietà audio.
 
-> **Scelta metodologica ancora da verificare:** prima di fissare l'algoritmo principale, controllare le slide del corso e identificare il metodo esplicitamente presentato come modello della percezione umana. K-means e Mean Shift non vanno considerati intercambiabili né scelti solo perché disponibili nel materiale.
+In particolare, l'obiettivo è indagare se la suddivisione dei brani in generi musicali rispecchi una struttura riconoscibile, basata su caratteristiche musicali e acustiche misurabili, oppure se sia il risultato di un processo di categorizzazione cognitiva e percettiva operato dalla mente umana.
+
+Attraverso l'applicazione di tecniche di clustering, si intende individuare gruppi di brani caratterizzati da proprietà sonore simili, considerando variabili come danceability, energy, valence, acousticness e tempo, senza utilizzare direttamente il genere musicale nella fase di raggruppamento.
+
+I risultati ottenuti verranno successivamente analizzati e confrontati con i generi musicali originali, al fine di individuare eventuali corrispondenze o discrepanze tra le caratteristiche oggettive dei brani e la loro classificazione.
+
+Il progetto mira quindi a comprendere come le caratteristiche sonore possano contribuire all'organizzazione della musica in categorie e quale relazione esista tra la struttura dei dati e i processi di percezione e categorizzazione umana.
 
 ## Dataset
 
