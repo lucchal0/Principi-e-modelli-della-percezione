@@ -62,7 +62,7 @@ possiamo osservare che alcuni generi presentano mediane differenti. Un aspetto i
 Questo significa che non possiamo distinguere sempre un genere musicale da un altro osservando una sola caratteristica.
 La Clustered Heatmap aggiunge un'altra informazione: utilizza il clustering gerarchico per raggruppare i generi che presentano profili audio simili, considerando contemporaneamente tutte e nove le caratteristiche.
 
-## complessivamente 
+### complessivamente 
 I generi musicali presentano alcune differenze nelle caratteristiche audio, ma queste differenze non sono sempre nette e le distribuzioni spesso si sovrappongono.
 
 
