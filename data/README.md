@@ -111,6 +111,8 @@ Questa analisi ci permette di osservare che alcuni generi presentano caratterist
 
 È importante precisare che queste famiglie rappresentano gruppi costruiti sulla base delle caratteristiche audio e non nuove classificazioni ufficiali dei generi musicali.
 
+I punti 4.1.5.9 e 4.1.5.10 valutare se togliere
+
 ## Considerazioni complessive
 
 I generi musicali presentano alcune differenze nelle caratteristiche audio, ma queste differenze non sono sempre nette e le distribuzioni spesso si sovrappongono.
