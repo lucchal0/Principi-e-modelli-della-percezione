@@ -22,17 +22,7 @@ Dataset di partenza: [Spotify Tracks Dataset – Kaggle](https://www.kaggle.com/
 ## Struttura
 
 ```text
-The-Sound-of-Data/
-├── README.md
-├── TODO.md
-├── data/
-│   └── README.md
-├── notebooks/
-│   └── sound_of_data.ipynb
-├── presentation/
-│   └── The_Sound_of_Data.pptx
-└── figures/
-    └── grafici/
+
 ```
 
 ## Notebook
