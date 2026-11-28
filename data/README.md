@@ -85,9 +85,38 @@ La Clustered Heatmap aggiunge un'altra informazione: utilizza il clustering gera
 
 In particolare, confronta le mediane delle caratteristiche standardizzate per ciascun genere e utilizza il metodo Ward con distanza euclidea per individuare gruppi di generi simili.
 
-## 4.1.5
+## 4.1.5 – Raggruppamento dei generi musicali in famiglie
+
+Dopo aver confrontato le caratteristiche audio dei singoli generi, abbiamo approfondito le somiglianze tra i 114 generi musicali, cercando di raggrupparli in famiglie sulla base dei loro profili audio.
+
+Per farlo, abbiamo calcolato il valore mediano delle nove caratteristiche musicali per ciascun genere, ottenendo un profilo audio rappresentativo di ogni categoria.
+
+Successivamente abbiamo:
+
+- Standardizzato i profili audio dei generi, in modo da rendere confrontabili le diverse caratteristiche.
+- Applicato un clustering gerarchico agglomerativo, utilizzando il metodo Ward e la distanza euclidea.
+- Provato diverse configurazioni, considerando un numero di famiglie da 2 a 20.
+- Confrontato i risultati attraverso tre indicatori: Silhouette Score, Calinski-Harabasz Index e Davies-Bouldin Index.
+
+Dal confronto degli indicatori abbiamo osservato che:
+
+- **K = 3:** ottiene il risultato migliore secondo Silhouette Score (0,5382) e Davies-Bouldin Index (0,4140), indicando gruppi relativamente più compatti e separati.
+- **K = 10:** permette una suddivisione più dettagliata dei generi e ottiene un Calinski-Harabasz Index più alto rispetto a K = 3 (41,9828 contro 32,8985).
+
+Gli indicatori, quindi, non individuano tutti la stessa soluzione. K = 3 risulta migliore secondo due misure su tre, mentre K = 10 offre una suddivisione più dettagliata.
+
+Abbiamo inoltre analizzato la composizione delle famiglie ottenute, osservando quali generi appartengono a ciascun gruppo e individuando per ogni famiglia il **medoid**, cioè il genere che meglio rappresenta il gruppo in base alle distanze tra i profili audio.
+
+Questa analisi ci permette di osservare che alcuni generi presentano caratteristiche musicali simili e possono essere raggruppati, anche quando hanno etichette originali differenti.
+
+È importante precisare che queste famiglie rappresentano gruppi costruiti sulla base delle caratteristiche audio e non nuove classificazioni ufficiali dei generi musicali.
 
 ## Considerazioni complessive
 
 I generi musicali presentano alcune differenze nelle caratteristiche audio, ma queste differenze non sono sempre nette e le distribuzioni spesso si sovrappongono.
-Abbiamo inoltre osservato che alcune caratteristiche musicali sono fortemente correlate tra loro.
+
+Abbiamo inoltre osservato che alcune caratteristiche musicali sono fortemente correlate tra loro e che alcuni generi, pur avendo etichette differenti, presentano profili audio simili.
+
+Il raggruppamento gerarchico dei generi ci ha permesso di approfondire queste somiglianze, individuando possibili famiglie musicali.
+
+Queste analisi preliminari ci forniscono una base per la fase successiva, nella quale applicheremo K-Means ai singoli brani, senza utilizzare il genere musicale come variabile di ingresso. In questo modo potremo verificare se i gruppi individuati automaticamente attraverso le caratteristiche audio presentano corrispondenze con i generi originali del dataset.
